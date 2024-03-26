@@ -1,8 +1,83 @@
-.flexbox-container {
+:root {
+    --nav-colour: #000000;
+    --nav-text: #fff;
+    --background-colour: white;
+    --primary-colour: #ffffff;
+    --secondary-colour: #abc4aa;
+    --hover-colour: #a9907e;
+}
+
+body {
+    background-color: var(--primary-colour);
+}
+
+.container {
+    display: inline-flex;
+    flex: column;
+    flex-flow: column wrap;
+    border: solid 4px black;
+    background-color: var(--nav-colour);
+    font-size: 1.2rem;
+    font-family: "Merriweather Sans", sans-serif;
+    width: 1400px
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.navbar ul {
     display: flex;
 }
 
-.flexbox-item {
+.container .navbar {
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+  
+.container .navbar ul li {
+    padding: 10px;
+    margin: 0 10px;
+}
+  
+.navbar a {
+    color: var(--nav-text);
+    font-weight: bold;
+}
+  
+.navbar a:hover {
+    color: var(--secondary-colour);
+}
+  
+.main {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid blue;
+    background-color: lightgrey;
+}
+
+.column1 {
+    min-height: 100px;
+}
+
+.column2 {
+    min-height: 100px;
+}
+
+.column3 {
+    min-height: 100px;
+}
+
+/*.flexbox-item {
     width: 200px;
     margin: 10px;
     border: 3px solid #333;
@@ -19,4 +94,4 @@
 
 .flexbox-item-3 {
     min-height: 300px;
-}
+}*/
