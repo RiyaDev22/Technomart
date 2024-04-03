@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 20px;
     background-color: #f8f8f8;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -17,6 +16,7 @@
 .header-logo {
     flex: 1;
     margin-right: 20px;
+    padding: 10px 10px;
 }
 
 .header-logo h1 a {
@@ -55,6 +55,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: white;
     background-color: #000000;
     height: 300px;
