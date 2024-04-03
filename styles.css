@@ -63,24 +63,23 @@
     padding: 20px;
 }
 
+.fasttext h1,
+.fasttext h4 {
+    margin: 10px 0;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.178);
-}
-
-.main-fasttext h1,
-.main-fasttext h4 {
-    margin: 10px 0;
 }
 
 .footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     color: white;
